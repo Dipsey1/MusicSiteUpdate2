@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <link href="style.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+  <div id="navaheder" style="margin-bottom: 20px;  width: 100%; height: 100px; background-color: #fff;">
+    <h2 id="logoo"> POWER.MUSIC & MIXTAPES </h2>
+    <ul id="Nav_menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="Random.html">Random</a></li>
+      <li><a href="Albums.html">Albums</a></li>
+      <li><a href="HipHopNews.html">HipHopNews</a></li>
+      <li><a href="8DMusic.html">8DMusic</a></li>
+    </ul>
+    </div>
+    <h1>Random Songs</h1>
+<p>play all songs Randomly</p>
+    <table id="musicTable">
+        <tr>
+          <th>Songs</th>
+          <th>Artist</th>
+          <th>Album</th>
+          <th>year</th>
+          <th>#</th>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+            onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+            class='button'
+          />
+          <img src="stop.png" width="30px" height="30px"
+          onclick="stop()"
+          class='button'
+        />
+          </td>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+          onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+          class='button'
+        />
+        <img src="stop.png" width="30px" height="30px"
+        onclick="stop()"
+        class='button'
+      />
+          </td>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+            onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+            class='button'
+          />
+          <img src="stop.png" width="30px" height="30px"
+          onclick="stop()"
+          class='button'
+        />
+          </td>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+          onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+          class='button'
+        />
+        <img src="stop.png" width="30px" height="30px"
+        onclick="stop()"
+        class='button'
+      />
+          </td>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+          onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+          class='button'
+        />
+        <img src="stop.png" width="30px" height="30px"
+        onclick="stop()"
+        class='button'
+      />
+          </td>
+        </tr>
+        <tr class="tablRow">
+          <td>Who Do You Love</td>
+          <td>YG</td>
+          <td>Blame it on the street</td>
+          <td>2018</td>
+          <td>
+            <img src="play.png" width="30px" height="30px"
+            onclick="play('musicFiles/yg_who_do_you_love__explicit_ft._drake_mp3_54376.mp3')"
+            class='button'
+          />
+          <img src="stop.png" width="30px" height="30px"
+          onclick="stop()"
+          class='button'
+        />
+          </td>
+        </tr>
+      </table>
+  
+      <div id="now_playing" onclick="playAndPause()"></div>
+      <audio id="MusicPlayer" controls>
+        <source
+          id="song"
+          src="/musicFiles/pills_automobiles_official_video_mp3_54438.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+  
+      <script type="text/javaScript" src="/music.js"></script>
+</body>
+</html>
